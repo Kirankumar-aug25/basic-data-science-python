@@ -1,0 +1,15 @@
+list comprehensions
+it is another way for creating list and reduce the size of a code 
+
+for loop vs list comprehensions
+
+x = []
+for i in range (11)
+	x.append(i)
+print(x)
+## usinglist comprehension
+x =[i for i in range(11)]
+print(x)
+we can use list comprehension in list,sets,dictonaries and cannot be used in tuples because tuple is immutable.
+
+# conditional vs list comprehension
