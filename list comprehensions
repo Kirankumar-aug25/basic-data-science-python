@@ -12,4 +12,17 @@ x =[i for i in range(11)]
 print(x)
 we can use list comprehension in list,sets,dictonaries and cannot be used in tuples because tuple is immutable.
 
+2 example
+
+ x = "i want to become a machine learning engineer"
+ x_list = []
+ for j in x:
+     x_list.append(j)
+  print(x_list)
+
 # conditional vs list comprehension
+
+x = "i want to become a machine learning engineer"
+x_list = [char for char in x if char in "aeiou"]
+
+print(x_list)
